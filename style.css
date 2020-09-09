@@ -1,0 +1,34 @@
+body {
+  background-color: #FFFF00;
+}
+
+body .TitreP {
+  color: #808080;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body .square {
+  background-color: #f8f8ff;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .square p {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+body #mot {
+  margin-top: 100px;
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

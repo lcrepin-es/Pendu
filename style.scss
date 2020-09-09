@@ -1,0 +1,34 @@
+$jaune: #FFFF00;
+$gris: #808080;
+$font:Arial, Helvetica, sans-serif;
+$blanc: #f8f8ff;
+
+body{
+    background-color: $jaune;
+    .TitreP{
+        color: $gris;
+        font-family: $font;
+    }
+    .square{
+        background-color: $blanc;
+        height: 50px;
+        width : 50px;
+        margin-left: 10px;
+        flex-direction: column;
+        #Saisie{
+            
+        }
+
+        p{
+            padding-top: 10px;
+            padding-left: 10px;
+        }
+    }
+    #mot{
+        margin-top: 100px;
+        width: 100%;
+        height: 150px;
+        display:flex;
+    }
+}
+
